@@ -77,8 +77,12 @@ async function main() {
 
     const outFile = path.join(outDir, `${city.id}.json`);
     if (anyFailed || (!tmKey && !sgId)) {
+      // Keep last run's events only from the sources that failed this time.
+      const failed = new Set(Object.entries(report).filter(([, v]) => typeof v === "string").map(([k]) => k));
+      if (!tmKey) failed.add("Ticketmaster");
+      if (!sgId) failed.add("SeatGeek");
       const previous = await readJSON(outFile, { events: [] });
-      const kept = previous.events.filter(inWindow);
+      const kept = previous.events.filter((e) => inWindow(e) && failed.has(e.src));
       collected.push(...kept);
       report["Kept from last run"] = kept.length;
     }
