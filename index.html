@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ohio Daybook</title>
+<meta name="description" content="Day-by-day events for Columbus and Ohio's major cities.">
+<meta name="theme-color" content="#F2F4F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1220" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Daybook">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="mast"><h1>Ohio Daybook</h1><span id="range">Next 4 weeks</span></div>
+    <nav class="scroller" id="cities" role="tablist" aria-label="City"></nav>
+    <div class="scroller" id="days" aria-label="Day"></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <main id="main">
+    <div class="dayhead"><h2 id="dayTitle">Loading events…</h2><p id="daySub">Pulling the latest listings for each city.</p></div>
+    <div class="chips" id="zones"></div>
+    <div class="chips" id="cats"></div>
+    <div id="out"></div>
+    <footer id="foot">Listings come from Ticketmaster, SeatGeek, public event calendars and hand-picked local events. Times change; check with the venue before you go.</footer>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

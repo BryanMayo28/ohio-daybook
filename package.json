@@ -1,0 +1,13 @@
+{
+  "name": "ohio-daybook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Day-by-day events for Columbus and Ohio's major cities, refreshed automatically.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "refresh": "node scripts/refresh.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,2387 @@
+{
+ "_note": "Hand-picked events the ticketing APIs tend to miss. Same fields as the app data (s, e, t, n, v, a, z, c, d, optional u). Past events are ignored automatically.",
+ "columbus": [
+  {
+   "s": "2026-11-01",
+   "t": "",
+   "n": "Gifts of the Craftsmen",
+   "v": "Ohio Craft Museum, 1665 W. Fifth Ave.",
+   "a": "Fifth by Northwest",
+   "z": "core",
+   "c": "market",
+   "d": "Annual artisan gift sale with handmade work from Ohio makers.",
+   "e": "2026-12-23"
+  },
+  {
+   "s": "2026-11-03",
+   "t": "9 AM",
+   "n": "Art as Doing / Thinking / Being",
+   "v": "Columbus Museum of Art",
+   "a": "Downtown",
+   "z": "core",
+   "c": "community",
+   "d": "Morning workshop on helping students build ideas and technique."
+  },
+  {
+   "s": "2026-11-03",
+   "t": "7 PM",
+   "n": "Blue Jackets vs. Colorado Avalanche",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "NHL home game."
+  },
+  {
+   "s": "2026-11-03",
+   "t": "7:30 PM",
+   "n": "Maybe Happy Ending",
+   "v": "Ohio Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Tony-winning musical about two helper robots who find each other. Matinees on the weekend.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-04",
+   "t": "6 PM",
+   "n": "Fortunate Youth",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "Reggae band, presented by WCBE."
+  },
+  {
+   "s": "2026-11-04",
+   "t": "6:30 PM",
+   "n": "Game of Thrones Trivia",
+   "v": "Echo Spirits Distilling Co.",
+   "a": "Columbus",
+   "z": "core",
+   "c": "food",
+   "d": "Themed trivia night at the distillery."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "",
+   "n": "Ohio State Women's Basketball vs. Central Michigan",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Buckeyes home game."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7 PM",
+   "n": "Blue Jackets vs. Dallas Stars",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "NHL home game."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7 PM",
+   "n": "Hunxho",
+   "v": "KEMBA Live!",
+   "a": "Arena District",
+   "z": "core",
+   "c": "music",
+   "d": "All-ages hip-hop show."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "International Gem & Jewelry Show",
+   "v": "Ohio Expo Center",
+   "a": "North Columbus",
+   "z": "core",
+   "c": "market",
+   "d": "Vendors selling jewelry, gemstones, beads and minerals.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "Hell City Tattoo Festival",
+   "v": "Columbus",
+   "a": "Columbus",
+   "z": "core",
+   "c": "festival",
+   "d": "Three days of tattoo artists, vendors and contests.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "6 PM",
+   "n": "The Menzingers",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "Everything I Ever Saw Tour with Hot Water Music and Weakened Friends."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "6:30 PM",
+   "n": "Ohio State Men's Basketball vs. Youngstown State",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Buckeyes home game."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7 PM",
+   "n": "WEIRD AF Comedy",
+   "v": "The Walrus (Attic Comedy Club)",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "A deliberately odd stand-up showcase."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7:30 PM",
+   "n": "Pirates! The Penzance Musical",
+   "v": "Palace Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "CAPA and Opera Columbus put a new spin on Gilbert & Sullivan. Sunday show at 2 PM.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "8:30 PM",
+   "n": "Don't Tell Comedy",
+   "v": "Secret location",
+   "a": "Arena District",
+   "z": "core",
+   "c": "comedy",
+   "d": "Pop-up stand-up; the address goes to ticket holders."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "UniverSoul Circus",
+   "v": "Historic Crew Stadium",
+   "a": "North Columbus",
+   "z": "core",
+   "c": "family",
+   "d": "Final weekend of the circus.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "MAC Women's Soccer Championship",
+   "v": "ScottsMiracle-Gro Field",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "Conference tournament.",
+   "e": "2026-11-13"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Pickerington Arts & Craft Show",
+   "v": "Pickerington",
+   "a": "Pickerington",
+   "z": "near",
+   "c": "market",
+   "d": "Local arts and crafts vendors."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Mark Twain Craft Bazaar",
+   "v": "Westerville North High School",
+   "a": "Westerville",
+   "z": "near",
+   "c": "market",
+   "d": "Large school craft bazaar."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "HollyDay Craft Bazaar",
+   "v": "New Albany",
+   "a": "New Albany",
+   "z": "near",
+   "c": "market",
+   "d": "Holiday craft bazaar."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Hilliard Bradley Craft Fair",
+   "v": "Hilliard Bradley High School",
+   "a": "Hilliard",
+   "z": "near",
+   "c": "market",
+   "d": "Craft fair."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "NEAT: A Bourbon Event",
+   "v": "Newark",
+   "a": "Newark",
+   "z": "trip",
+   "c": "food",
+   "d": "Bourbon tasting event."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "11 AM",
+   "n": "Hocking Valley Steam Special",
+   "v": "Hocking Valley Scenic Railway",
+   "a": "Nelsonville",
+   "z": "trip",
+   "c": "family",
+   "d": "Train ride behind a 1920 steam locomotive.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "3:30 PM",
+   "n": "Ohio State Football vs. Oregon",
+   "v": "Ohio Stadium",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Big home game, on CBS."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "4 PM",
+   "n": "Gallery Hop",
+   "v": "High Street galleries",
+   "a": "Short North",
+   "z": "core",
+   "c": "arts",
+   "d": "Free. Galleries open new shows along High Street, 4 to 8 PM."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "6:30 PM",
+   "n": "Trae Crowder",
+   "v": "Columbus Funny Bone",
+   "a": "Easton",
+   "z": "near",
+   "c": "comedy",
+   "d": "Stand-up, 21+."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7 PM",
+   "n": "ProMusica: Bach, Pärt and Beethoven",
+   "v": "Southern Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Chamber orchestra program.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7 PM",
+   "n": "Ed Bassmaster Live",
+   "v": "The Walrus (Attic Comedy Club)",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "Comedy show."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "",
+   "n": "Buckeye Comic Con III",
+   "v": "Grove City",
+   "a": "Grove City",
+   "z": "near",
+   "c": "family",
+   "d": "Comic convention."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "",
+   "n": "TWIG Bazaar",
+   "v": "Powell",
+   "a": "Powell",
+   "z": "near",
+   "c": "market",
+   "d": "Holiday bazaar supporting Nationwide Children's."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "",
+   "n": "Fashion Week Columbus",
+   "v": "Various venues",
+   "a": "Columbus",
+   "z": "core",
+   "c": "arts",
+   "d": "A week of shows spotlighting local designers.",
+   "e": "2026-11-14"
+  },
+  {
+   "s": "2026-11-08",
+   "t": "6 PM",
+   "n": "Wage War",
+   "v": "KEMBA Live!",
+   "a": "Arena District",
+   "z": "core",
+   "c": "music",
+   "d": "With We Came As Romans, Varials and Cane Hill."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "7 PM",
+   "n": "sombr",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "music",
+   "d": "You Are The Reason Tour with Dove Cameron and Hannah Jadagu."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "7 PM",
+   "n": "Daniel Sloss: BITTER",
+   "v": "Riffe Center",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "Stand-up from the Scottish comic."
+  },
+  {
+   "s": "2026-11-09",
+   "t": "",
+   "n": "Flamenco Show & Dinner",
+   "v": "Barcelona",
+   "a": "German Village",
+   "z": "core",
+   "c": "food",
+   "d": "Part of the restaurant's 30th-anniversary series."
+  },
+  {
+   "s": "2026-11-09",
+   "t": "6 PM",
+   "n": "Ohio State Men's Basketball vs. Marshall",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Buckeyes home game."
+  },
+  {
+   "s": "2026-11-09",
+   "t": "6:30 PM",
+   "n": "Science Trivia by COSI",
+   "v": "Land-Grant Brewing",
+   "a": "Franklinton",
+   "z": "core",
+   "c": "food",
+   "d": "Themed science trivia rounds."
+  },
+  {
+   "s": "2026-11-09",
+   "t": "7 PM",
+   "n": "Clara La San",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "Chosen Silences Tour."
+  },
+  {
+   "s": "2026-11-09",
+   "t": "7 PM",
+   "n": "iRest Sound Bath",
+   "v": "Canal Winchester Community Center",
+   "a": "Canal Winchester",
+   "z": "near",
+   "c": "community",
+   "d": "Guided rest and sound bath."
+  },
+  {
+   "s": "2026-11-10",
+   "t": "7:30 PM",
+   "n": "Blade Runner Live",
+   "v": "Palace Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "The Final Cut on screen with the score played live."
+  },
+  {
+   "s": "2026-11-10",
+   "t": "7:30 PM",
+   "n": "Blue Jackets vs. Florida Panthers",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "NHL home game."
+  },
+  {
+   "s": "2026-11-11",
+   "t": "11 AM",
+   "n": "Veterans Day Ceremony",
+   "v": "National Veterans Memorial and Museum",
+   "a": "Franklinton",
+   "z": "core",
+   "c": "community",
+   "d": "Honors 250 years of veterans and the 25th anniversary of 9/11."
+  },
+  {
+   "s": "2026-11-11",
+   "t": "7 PM",
+   "n": "Gym Class Heroes & Lupe Fiasco",
+   "v": "KEMBA Live!",
+   "a": "Arena District",
+   "z": "core",
+   "c": "music",
+   "d": "Rescheduled from Sept. 26; original tickets honored."
+  },
+  {
+   "s": "2026-11-12",
+   "t": "",
+   "n": "COSI After Dark: Game On!",
+   "v": "COSI",
+   "a": "Franklinton",
+   "z": "core",
+   "c": "food",
+   "d": "Adults-only night at the science center, 21+."
+  },
+  {
+   "s": "2026-11-12",
+   "t": "",
+   "n": "Mid-Ohio Cluster Dog Shows",
+   "v": "Ohio Expo Center",
+   "a": "North Columbus",
+   "z": "core",
+   "c": "family",
+   "d": "Four days of dog shows.",
+   "e": "2026-11-15"
+  },
+  {
+   "s": "2026-11-12",
+   "t": "6:30 PM",
+   "n": "Ohio State Women's Basketball vs. UConn",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Marquee home game."
+  },
+  {
+   "s": "2026-11-12",
+   "t": "7 PM",
+   "n": "Blue Jackets vs. Tampa Bay Lightning",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "NHL home game."
+  },
+  {
+   "s": "2026-11-13",
+   "t": "",
+   "n": "WonderLight's Christmas",
+   "v": "Hartford Fairgrounds",
+   "a": "Hartford",
+   "z": "trip",
+   "c": "family",
+   "d": "Drive-thru light show, $35 per car.",
+   "e": "2027-01-03"
+  },
+  {
+   "s": "2026-11-13",
+   "t": "5 PM",
+   "n": "Easton Grand Illumination",
+   "v": "Easton Town Center",
+   "a": "Easton",
+   "z": "near",
+   "c": "family",
+   "d": "Holiday market from 5, tree lighting around 7 PM."
+  },
+  {
+   "s": "2026-11-13",
+   "t": "7 PM",
+   "n": "John Summit",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "CTRL ESCAPE arena tour with ALOK and Jackie Hollander."
+  },
+  {
+   "s": "2026-11-13",
+   "t": "7:30 PM",
+   "n": "Music of the Knights",
+   "v": "Davidson Theatre, Riffe Center",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Columbus Symphony pops: Lloyd Webber, Elton John and McCartney. Also 10:30 AM."
+  },
+  {
+   "s": "2026-11-13",
+   "t": "8 PM",
+   "n": "The Wood Brothers",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "With Amelia Day. Listings show both 7 and 8 PM."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "",
+   "n": "Clippers Holiday Lights",
+   "v": "Huntington Park",
+   "a": "Arena District",
+   "z": "core",
+   "c": "family",
+   "d": "More than a million lights at the ballpark.",
+   "e": "2026-12-31"
+  },
+  {
+   "s": "2026-11-14",
+   "t": "11 AM",
+   "n": "Not Your Mama's Craft Market",
+   "v": "Polaris Fashion Place",
+   "a": "Polaris",
+   "z": "near",
+   "c": "market",
+   "d": "First holiday craft market at Polaris, 11 AM to 5 PM."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "12 PM",
+   "n": "Ohio State Football vs. Northwestern",
+   "v": "Ohio Stadium",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Noon kickoff on FOX."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "7 PM",
+   "n": "Palace",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "Presented by WCBE."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "7 PM",
+   "n": "Blue Jackets vs. Philadelphia Flyers",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "NHL home game."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "7:30 PM",
+   "n": "Palace 100: The Genius of Ray Charles",
+   "v": "Palace Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Centennial concert celebrating Ray Charles."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "8 PM",
+   "n": "Michael Kosta: Big Dad Energy",
+   "v": "Lincoln Theatre",
+   "a": "King-Lincoln",
+   "z": "core",
+   "c": "comedy",
+   "d": "Stand-up from the Daily Show host."
+  },
+  {
+   "s": "2026-11-15",
+   "t": "6 PM",
+   "n": "Dedrick Flynn",
+   "v": "Columbus Funny Bone",
+   "a": "Easton",
+   "z": "near",
+   "c": "comedy",
+   "d": "Stand-up, 21+."
+  },
+  {
+   "s": "2026-11-16",
+   "t": "7 PM",
+   "n": "Medium Build",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "The King of Having Fun tour with Eden Joel."
+  },
+  {
+   "s": "2026-11-17",
+   "t": "",
+   "n": "Chicago",
+   "v": "Mershon Auditorium",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "The classic horn-rock band."
+  },
+  {
+   "s": "2026-11-18",
+   "t": "",
+   "n": "Ohio State Women's Basketball vs. Ole Miss",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Buckeyes home game."
+  },
+  {
+   "s": "2026-11-18",
+   "t": "6:30 PM",
+   "n": "Chat Pile",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "With Soul Glo and Shallowater."
+  },
+  {
+   "s": "2026-11-19",
+   "t": "7 PM",
+   "n": "Hairspray",
+   "v": "Short North Stage",
+   "a": "Short North",
+   "z": "core",
+   "c": "arts",
+   "d": "Musical run through Dec. 27.",
+   "e": "2026-12-27"
+  },
+  {
+   "s": "2026-11-19",
+   "t": "7 PM",
+   "n": "Holiday Hoopla",
+   "v": "Shadowbox Live",
+   "a": "Brewery District",
+   "z": "core",
+   "c": "comedy",
+   "d": "Holiday sketch comedy and music.",
+   "e": "2026-12-26"
+  },
+  {
+   "s": "2026-11-19",
+   "t": "7:30 PM",
+   "n": "Boney James",
+   "v": "Southern Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Smooth-jazz saxophonist."
+  },
+  {
+   "s": "2026-11-20",
+   "t": "",
+   "n": "Ohio State Hockey vs. Notre Dame",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Two-game home series.",
+   "e": "2026-11-21"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "",
+   "n": "Wildlights",
+   "v": "Columbus Zoo and Aquarium",
+   "a": "Powell",
+   "z": "near",
+   "c": "family",
+   "d": "Holiday light display across the zoo.",
+   "e": "2027-01-03"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "",
+   "n": "Butch Bando's Fantasy of Lights",
+   "v": "Delaware",
+   "a": "Delaware",
+   "z": "near",
+   "c": "family",
+   "d": "Drive-thru lights, $20 to $30 per car.",
+   "e": "2027-01-03"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "5 PM",
+   "n": "Wanderlights",
+   "v": "Columbus Commons & Scioto Mile",
+   "a": "Downtown",
+   "z": "core",
+   "c": "family",
+   "d": "Free downtown light installations, 5 to 10 PM nightly.",
+   "e": "2027-02-14"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "7 PM",
+   "n": "OSU Marching Band Hometown Concert",
+   "v": "Mershon Auditorium",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "Annual indoor concert, $21."
+  },
+  {
+   "s": "2026-11-20",
+   "t": "7 PM",
+   "n": "Charlie Berens",
+   "v": "Southern Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "The Lost and Found Tour."
+  },
+  {
+   "s": "2026-11-20",
+   "t": "7:30 PM",
+   "n": "Verdi's Requiem",
+   "v": "Ohio Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Large-scale choral and orchestral performance.",
+   "e": "2026-11-21"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "7:30 PM",
+   "n": "Ordinary Woman",
+   "v": "Davidson Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Musical inspired by Sheryl Crow's songs.",
+   "e": "2026-11-22"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "8 PM",
+   "n": "Los Tigres del Norte",
+   "v": "Palace Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Norteño legends."
+  },
+  {
+   "s": "2026-11-21",
+   "t": "",
+   "n": "Christkindlmarkt Dublin",
+   "v": "Riverside Crossing Park",
+   "a": "Dublin",
+   "z": "near",
+   "c": "market",
+   "d": "Free German-style holiday market.",
+   "e": "2026-12-24"
+  },
+  {
+   "s": "2026-11-21",
+   "t": "",
+   "n": "Conservatory Aglow",
+   "v": "Franklin Park Conservatory",
+   "a": "Franklin Park",
+   "z": "core",
+   "c": "family",
+   "d": "Holiday lights in the gardens.",
+   "e": "2027-01-03"
+  },
+  {
+   "s": "2026-11-21",
+   "t": "",
+   "n": "Columbus ChristmasFair",
+   "v": "Ohio Expo Center",
+   "a": "North Columbus",
+   "z": "core",
+   "c": "market",
+   "d": "40th annual holiday fair, $8; 12 and under free.",
+   "e": "2026-11-22"
+  },
+  {
+   "s": "2026-11-21",
+   "t": "11 AM",
+   "n": "COSI Tree Lighting",
+   "v": "COSI",
+   "a": "Franklinton",
+   "z": "core",
+   "c": "family",
+   "d": "Free atrium entry for the lighting."
+  },
+  {
+   "s": "2026-11-21",
+   "t": "12 PM",
+   "n": "WinterFest",
+   "v": "Dorrian Green",
+   "a": "Downtown",
+   "z": "core",
+   "c": "festival",
+   "d": "Free winter festival on the Scioto Mile, noon to 4."
+  },
+  {
+   "s": "2026-11-21",
+   "t": "7 PM",
+   "n": "Tribute to The Last Waltz",
+   "v": "Newport Music Hall",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "13th annual tribute concert."
+  },
+  {
+   "s": "2026-11-21",
+   "t": "8 PM",
+   "n": "Ron White",
+   "v": "Palace Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "Stand-up."
+  },
+  {
+   "s": "2026-11-22",
+   "t": "3 PM",
+   "n": "Gahanna Holiday Lights Celebration",
+   "v": "Creekside",
+   "a": "Gahanna",
+   "z": "near",
+   "c": "family",
+   "d": "Free, 3 to 6:30 PM."
+  },
+  {
+   "s": "2026-11-22",
+   "t": "7 PM",
+   "n": "Love Actually in Concert",
+   "v": "Palace Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Film with live orchestra."
+  },
+  {
+   "s": "2026-11-22",
+   "t": "7 PM",
+   "n": "Streetlight Manifesto",
+   "v": "KEMBA Live!",
+   "a": "Arena District",
+   "z": "core",
+   "c": "music",
+   "d": "With Hot Rod Circuit."
+  },
+  {
+   "s": "2026-11-24",
+   "t": "",
+   "n": "Ohio State Men's Basketball vs. Vanderbilt",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "Buckeyes home game."
+  },
+  {
+   "s": "2026-11-24",
+   "t": "7 PM",
+   "n": "The Grinch: Free Screening",
+   "v": "McCoy Center for the Arts",
+   "a": "New Albany",
+   "z": "near",
+   "c": "family",
+   "d": "Bring food or cash donations."
+  },
+  {
+   "s": "2026-11-25",
+   "t": "7 PM",
+   "n": "Blue Jackets vs. New Jersey Devils",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "NHL home game."
+  },
+  {
+   "s": "2026-11-25",
+   "t": "7:30 PM",
+   "n": "A Drag Queen Christmas",
+   "v": "Palace Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Holiday drag revue."
+  },
+  {
+   "s": "2026-11-26",
+   "t": "9 AM",
+   "n": "Columbus Turkey Trot",
+   "v": "Shops on Lane Ave.",
+   "a": "Upper Arlington",
+   "z": "near",
+   "c": "community",
+   "d": "4-mile race; Tot Trot at 8:30 AM."
+  },
+  {
+   "s": "2026-11-26",
+   "t": "9 AM",
+   "n": "Thanksgiving Wattle 5K",
+   "v": "Grove City",
+   "a": "Grove City",
+   "z": "near",
+   "c": "community",
+   "d": "Thanksgiving morning 5K."
+  },
+  {
+   "s": "2026-11-26",
+   "t": "9 AM",
+   "n": "Bexley Turkey Trot",
+   "v": "Bexley",
+   "a": "Bexley",
+   "z": "near",
+   "c": "community",
+   "d": "Thanksgiving morning run."
+  },
+  {
+   "s": "2026-11-27",
+   "t": "",
+   "n": "Christmas Together Tour",
+   "v": "Schottenstein Center",
+   "a": "Campus",
+   "z": "core",
+   "c": "music",
+   "d": "Amy Grant, Michael W. Smith and CeCe Winans."
+  },
+  {
+   "s": "2026-11-27",
+   "t": "",
+   "n": "Desi Banks",
+   "v": "Columbus Funny Bone",
+   "a": "Easton",
+   "z": "near",
+   "c": "comedy",
+   "d": "Your Favorite Cousin Tour.",
+   "e": "2026-11-29"
+  },
+  {
+   "s": "2026-11-27",
+   "t": "2 PM",
+   "n": "A Christmas Carol",
+   "v": "Ohio Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "CAPA's holiday stage production.",
+   "e": "2026-11-29"
+  },
+  {
+   "s": "2026-11-27",
+   "t": "3 PM",
+   "n": "Blue Jackets vs. Detroit Red Wings",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "Day-after-Thanksgiving game."
+  },
+  {
+   "s": "2026-11-28",
+   "t": "",
+   "n": "Scott Antique Markets",
+   "v": "Ohio Expo Center",
+   "a": "North Columbus",
+   "z": "core",
+   "c": "market",
+   "d": "Winter antique market.",
+   "e": "2026-11-29"
+  },
+  {
+   "s": "2026-11-28",
+   "t": "12 PM",
+   "n": "Ohio State Football vs. Michigan",
+   "v": "Ohio Stadium",
+   "a": "Campus",
+   "z": "core",
+   "c": "sports",
+   "d": "The Game."
+  },
+  {
+   "s": "2026-11-28",
+   "t": "7 PM",
+   "n": "Brew Lights",
+   "v": "Columbus Zoo and Aquarium",
+   "a": "Powell",
+   "z": "near",
+   "c": "food",
+   "d": "Craft beer under the Wildlights."
+  },
+  {
+   "s": "2026-11-29",
+   "t": "1 PM",
+   "n": "A10/American Showcase",
+   "v": "Nationwide Arena",
+   "a": "Arena District",
+   "z": "core",
+   "c": "sports",
+   "d": "Men's college basketball doubleheader."
+  }
+ ],
+ "cleveland": [
+  {
+   "s": "2026-11-03",
+   "t": "7:30 PM",
+   "n": "Hadestown",
+   "v": "Connor Palace, Playhouse Square",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Tony- and Grammy-winning musical.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-04",
+   "t": "",
+   "n": "LEENALCHI",
+   "v": "Cleveland Museum of Art",
+   "a": "University Circle",
+   "z": "core",
+   "c": "music",
+   "d": "Korean pansori-pop band."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "",
+   "n": "Jessica Lea Mayfield",
+   "v": "Beachland Tavern",
+   "a": "Collinwood",
+   "z": "core",
+   "c": "music",
+   "d": "With Rachel Bobbitt."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "",
+   "n": "Road to 50",
+   "v": "Near West Theatre",
+   "a": "Gordon Square",
+   "z": "core",
+   "c": "arts",
+   "d": "Songs that shaped us, a revue.",
+   "e": "2026-11-07"
+  },
+  {
+   "s": "2026-11-05",
+   "t": "",
+   "n": "N8NOFACE",
+   "v": "Mahall's",
+   "a": "Lakewood",
+   "z": "near",
+   "c": "music",
+   "d": "Synth-punk with Ho99o9 and Slay Squad."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "",
+   "n": "Shelter by Eric Mansfield",
+   "v": "Wild Oscar's",
+   "a": "Cleveland",
+   "z": "core",
+   "c": "arts",
+   "d": "Wild Thread production.",
+   "e": "2026-11-15"
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7:30 PM",
+   "n": "Brahms's Requiem",
+   "v": "Mandel Concert Hall, Severance",
+   "a": "University Circle",
+   "z": "core",
+   "c": "music",
+   "d": "The Cleveland Orchestra and Chorus with Petr Popelka.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7:30 PM",
+   "n": "Cavaliers vs. 76ers",
+   "v": "Rocket Arena",
+   "a": "Downtown",
+   "z": "core",
+   "c": "sports",
+   "d": "NBA home game."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7:30 PM",
+   "n": "Private Lives",
+   "v": "Outcalt Theatre, Playhouse Square",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Cleveland Play House comedy about exes on adjoining honeymoon balconies.",
+   "e": "2026-11-22"
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7:30 PM",
+   "n": "Rent",
+   "v": "Allen Theatre, Playhouse Square",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "30th-anniversary production.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7:30 PM",
+   "n": "Sweeney Todd",
+   "v": "Hanna Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Great Lakes Theater staging.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "CIM Opera: Florencia en las Amazonas",
+   "v": "Cleveland Institute of Music",
+   "a": "University Circle",
+   "z": "core",
+   "c": "music",
+   "d": "Student opera production."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "Gingerbread House Arts & Craft Show",
+   "v": "Mentor",
+   "a": "Mentor",
+   "z": "near",
+   "c": "market",
+   "d": "Holiday arts and crafts.",
+   "e": "2026-11-07"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "6 PM",
+   "n": "MIX: K-Pop Inferno",
+   "v": "Cleveland Museum of Art",
+   "a": "University Circle",
+   "z": "core",
+   "c": "music",
+   "d": "Monthly museum party with DJs Moobek and Hwarang."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7 PM",
+   "n": "Chico Bean",
+   "v": "Funny Bone",
+   "a": "The Flats",
+   "z": "core",
+   "c": "comedy",
+   "d": "Shows at 7 and 9:30 PM.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7 PM",
+   "n": "Devotional 2026",
+   "v": "Beachland Tavern",
+   "a": "Collinwood",
+   "z": "core",
+   "c": "music",
+   "d": "Two-day tribute to Akron new wave. Saturday at 2 PM.",
+   "e": "2026-11-07"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7 PM",
+   "n": "Anthony Rodia",
+   "v": "Hilarities 4th Street Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "Insanely Funny Tour.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7:30 PM",
+   "n": "The Nightmare Before Christmas in Concert",
+   "v": "Mandel Concert Hall, Severance",
+   "a": "University Circle",
+   "z": "core",
+   "c": "music",
+   "d": "The Cleveland Orchestra plays the score live to the film."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7:30 PM",
+   "n": "Micky Dolenz: 60 Years of the Monkees",
+   "v": "Northfield Park Racino",
+   "a": "Northfield",
+   "z": "near",
+   "c": "music",
+   "d": "The former Monkees singer."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "Doors 7 PM",
+   "n": "Blue October",
+   "v": "Agora Theatre",
+   "a": "Midtown",
+   "z": "core",
+   "c": "music",
+   "d": "Foiled 20th anniversary tour."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Jeff Dunham",
+   "v": "KeyBank State Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "Ventriloquist comedy."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "DANCECleveland: Charlotte Ballet & Hubbard Street",
+   "v": "Mimi Ohio Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Double bill of contemporary dance."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "TobyMac, Third Day & Chris Tomlin",
+   "v": "Wolstein Center",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Christian music tour."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Pigeons Playing Ping Pong",
+   "v": "House of Blues",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Fall tour."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Cavaliers vs. Knicks",
+   "v": "Rocket Arena",
+   "a": "Downtown",
+   "z": "core",
+   "c": "sports",
+   "d": "NBA home game."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Holly Days Artisan Boutique",
+   "v": "West Woods Nature Center",
+   "a": "Russell Twp.",
+   "z": "trip",
+   "c": "market",
+   "d": "Holiday artisan market in Geauga County."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "10 AM",
+   "n": "Rocky River Avant-Garde Art & Craft Show",
+   "v": "Rocky River Memorial Hall",
+   "a": "Rocky River",
+   "z": "near",
+   "c": "market",
+   "d": "Handmade goods, 10 AM to 4 PM."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "11 AM",
+   "n": "Día de Muertos",
+   "v": "Cleveland Public Theatre",
+   "a": "Gordon Square",
+   "z": "core",
+   "c": "festival",
+   "d": "Free. Altars, displays and a parade."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "6 PM",
+   "n": "American Two Fifty: SPACES Benefit",
+   "v": "SPACES, 2900 Detroit Ave.",
+   "a": "Ohio City",
+   "z": "core",
+   "c": "arts",
+   "d": "About 30 artists on American history and identity, 6 to 11 PM."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "6 PM",
+   "n": "Rock Solid Gala",
+   "v": "The Treelawn",
+   "a": "Collinwood",
+   "z": "core",
+   "c": "community",
+   "d": "Benefit for Cleveland Rocks with Black Voltron."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "10 PM",
+   "n": "The Rocky Horror Picture Show",
+   "v": "Cedar Lee Theatre",
+   "a": "Cleveland Heights",
+   "z": "near",
+   "c": "arts",
+   "d": "Costumed audience-participation screening."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "",
+   "n": "Waterparks",
+   "v": "Mahall's",
+   "a": "Lakewood",
+   "z": "near",
+   "c": "music",
+   "d": "Jinx tour."
+  }
+ ],
+ "cincinnati": [
+  {
+   "s": "2026-11-03",
+   "t": "",
+   "n": "Jimmie Lou's Grand Opening",
+   "v": "1201 Broadway",
+   "a": "Pendleton",
+   "z": "core",
+   "c": "food",
+   "d": "New Orleans food from Chef Jeffery Harris."
+  },
+  {
+   "s": "2026-11-03",
+   "t": "",
+   "n": "LEGO Jurassic World",
+   "v": "Cincinnati Museum Center",
+   "a": "West End",
+   "z": "core",
+   "c": "family",
+   "d": "Dinosaurs built from six million bricks.",
+   "e": "2027-01-04"
+  },
+  {
+   "s": "2026-11-03",
+   "t": "10 AM",
+   "n": "A Spider's Gift",
+   "v": "Krohn Conservatory",
+   "a": "Eden Park",
+   "z": "core",
+   "c": "family",
+   "d": "Holiday display, 10 AM to 8 PM.",
+   "e": "2027-01-03"
+  },
+  {
+   "s": "2026-11-03",
+   "t": "11 AM",
+   "n": "Winterhaus",
+   "v": "Fountain Square",
+   "a": "Downtown",
+   "z": "core",
+   "c": "family",
+   "d": "Holiday attraction, 11 AM to 9 PM daily.",
+   "e": "2026-12-31"
+  },
+  {
+   "s": "2026-11-03",
+   "t": "7:30 PM",
+   "n": "Get Happy: Angela Ingersoll Sings Judy Garland",
+   "v": "Playhouse in the Park",
+   "a": "Mt. Adams",
+   "z": "core",
+   "c": "music",
+   "d": "Concert of Garland's songbook.",
+   "e": "2026-11-07"
+  },
+  {
+   "s": "2026-11-04",
+   "t": "",
+   "n": "Savor Cincinnati",
+   "v": "Hard Rock Casino",
+   "a": "Downtown",
+   "z": "core",
+   "c": "food",
+   "d": "Five-course chef dinners with wine pairings.",
+   "e": "2026-11-06"
+  },
+  {
+   "s": "2026-11-04",
+   "t": "6:30 PM",
+   "n": "UC Women's Basketball vs. East Texas A&M",
+   "v": "Fifth Third Arena",
+   "a": "Clifton",
+   "z": "core",
+   "c": "sports",
+   "d": "Season opener."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "6 PM",
+   "n": "Imago Green Tie Gala",
+   "v": "ARCO",
+   "a": "Price Hill",
+   "z": "core",
+   "c": "community",
+   "d": "Drinks, food and storytelling."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7 PM",
+   "n": "UC Men's Basketball vs. Green Bay",
+   "v": "Fifth Third Arena",
+   "a": "Clifton",
+   "z": "core",
+   "c": "sports",
+   "d": "Bearcats home game."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "Over the Rhine with the Cincinnati Symphony",
+   "v": "Music Hall",
+   "a": "Over-the-Rhine",
+   "z": "core",
+   "c": "music",
+   "d": "Live music with ballet.",
+   "e": "2026-11-07"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "Germania Christkindlmarkt",
+   "v": "Germania Society",
+   "a": "Colerain Twp.",
+   "z": "near",
+   "c": "market",
+   "d": "German holiday market, heated tents, $5.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "Sharonville Holiday Market",
+   "v": "Sharonville Convention Center",
+   "a": "Sharonville",
+   "z": "near",
+   "c": "market",
+   "d": "Two floors of vendors, free parking.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7 PM",
+   "n": "Layers of Innovation",
+   "v": "Cincinnati Museum Center",
+   "a": "West End",
+   "z": "core",
+   "c": "food",
+   "d": "21+ night with cocktails and exhibit access."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7 PM",
+   "n": "Xavier Men's Basketball vs. Eastern Michigan",
+   "v": "Cintas Center",
+   "a": "Evanston",
+   "z": "core",
+   "c": "sports",
+   "d": "Musketeers home game."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "UC Health Ice Rink Opening Day",
+   "v": "Elm Street Plaza",
+   "a": "Downtown",
+   "z": "core",
+   "c": "family",
+   "d": "Skating, igloos and a warming tent."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "1800s Harvest Jamboree",
+   "v": "Shawnee Lookout",
+   "a": "North Bend",
+   "z": "near",
+   "c": "family",
+   "d": "Pioneer food, games and tomahawk toss.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Loveland HS Fall Arts & Crafts Expo",
+   "v": "Loveland High School",
+   "a": "Loveland",
+   "z": "near",
+   "c": "market",
+   "d": "Arts and crafts expo."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "11 AM",
+   "n": "ArtisanFest513: Makers on Ice",
+   "v": "Elm Street Plaza",
+   "a": "Downtown",
+   "z": "core",
+   "c": "market",
+   "d": "Free maker market, 11 AM to 3 PM."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "11 AM",
+   "n": "Northside Record Fair",
+   "v": "Heart in Balance Event Center",
+   "a": "Northside",
+   "z": "core",
+   "c": "market",
+   "d": "60+ vinyl tables, $5."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "12 PM",
+   "n": "Pumpkin Chuck",
+   "v": "Stanbery Park",
+   "a": "Mt. Washington",
+   "z": "core",
+   "c": "festival",
+   "d": "Trebuchets, food trucks and beer, noon to 5."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "12:30 PM",
+   "n": "Prematch at the Park",
+   "v": "Washington Park",
+   "a": "Over-the-Rhine",
+   "z": "core",
+   "c": "family",
+   "d": "Free FC Cincinnati fan party."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "2 PM",
+   "n": "UC Women's Basketball vs. Penn State",
+   "v": "Fifth Third Arena",
+   "a": "Clifton",
+   "z": "core",
+   "c": "sports",
+   "d": "Bearcats home game."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "4 PM",
+   "n": "FC Cincinnati vs. Nashville",
+   "v": "TQL Stadium",
+   "a": "West End",
+   "z": "core",
+   "c": "sports",
+   "d": "Fan Appreciation Night."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "6 PM",
+   "n": "Interstellar Adventures: Saturn",
+   "v": "Cincinnati Observatory",
+   "a": "Mt. Lookout",
+   "z": "core",
+   "c": "family",
+   "d": "Kids 5 to 12, pizza and telescopes."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7:05 PM",
+   "n": "Cyclones vs. Indy Fuel",
+   "v": "Heritage Bank Center",
+   "a": "Downtown",
+   "z": "core",
+   "c": "sports",
+   "d": "Shutout the Hate Night."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "",
+   "n": "Cincinnati Fall Avant-Garde Art & Craft Show",
+   "v": "Loveland",
+   "a": "Loveland",
+   "z": "near",
+   "c": "market",
+   "d": "Fall art and craft show."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "9:30 AM",
+   "n": "Bengals vs. Falcons Watch Party",
+   "v": "Rhinegeist",
+   "a": "Over-the-Rhine",
+   "z": "core",
+   "c": "food",
+   "d": "Morning kickoff from Madrid on the taproom screen."
+  },
+  {
+   "s": "2026-11-09",
+   "t": "",
+   "n": "Cincinnati Pizza Week",
+   "v": "Participating pizzerias",
+   "a": "Citywide",
+   "z": "core",
+   "c": "food",
+   "d": "$11 pizzas around town.",
+   "e": "2026-11-15"
+  },
+  {
+   "s": "2026-11-12",
+   "t": "9 AM",
+   "n": "The Visibility Summit",
+   "v": "MadTree Alcove Summit Park",
+   "a": "Blue Ash",
+   "z": "near",
+   "c": "community",
+   "d": "Networking brunch and workshop."
+  },
+  {
+   "s": "2026-11-13",
+   "t": "",
+   "n": "Holiday Junction",
+   "v": "Cincinnati Museum Center",
+   "a": "West End",
+   "z": "core",
+   "c": "family",
+   "d": "Historic Duke Energy holiday trains.",
+   "e": "2027-01-03"
+  },
+  {
+   "s": "2026-11-14",
+   "t": "",
+   "n": "Summit Park Ice Rink Opens",
+   "v": "Summit Park",
+   "a": "Blue Ash",
+   "z": "near",
+   "c": "family",
+   "d": "Open through Jan. 10.",
+   "e": "2027-01-10"
+  },
+  {
+   "s": "2026-11-14",
+   "t": "12 PM",
+   "n": "Art on Vine Holiday Market",
+   "v": "Rhinegeist",
+   "a": "Over-the-Rhine",
+   "z": "core",
+   "c": "market",
+   "d": "80+ vendors, noon to 6."
+  },
+  {
+   "s": "2026-11-19",
+   "t": "",
+   "n": "Festival of Lights",
+   "v": "Cincinnati Zoo",
+   "a": "Avondale",
+   "z": "core",
+   "c": "family",
+   "d": "Holiday lights at the zoo.",
+   "e": "2027-01-03"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "",
+   "n": "Greater Cincinnati Holiday Market",
+   "v": "First Financial Center",
+   "a": "Downtown",
+   "z": "core",
+   "c": "market",
+   "d": "Big holiday shopping show.",
+   "e": "2026-11-22"
+  },
+  {
+   "s": "2026-11-20",
+   "t": "",
+   "n": "Cincinnati Christkindlmarkt",
+   "v": "Smale Park",
+   "a": "The Banks",
+   "z": "core",
+   "c": "market",
+   "d": "German-style holiday market.",
+   "e": "2026-12-23"
+  },
+  {
+   "s": "2026-11-21",
+   "t": "",
+   "n": "Lights Up",
+   "v": "Liberty Center",
+   "a": "Liberty Twp.",
+   "z": "near",
+   "c": "festival",
+   "d": "Holiday parade and tree lighting."
+  },
+  {
+   "s": "2026-11-21",
+   "t": "10 AM",
+   "n": "Holiday OFF Market",
+   "v": "Summit Park",
+   "a": "Blue Ash",
+   "z": "near",
+   "c": "market",
+   "d": "Holiday market, 10 AM to 4 PM."
+  },
+  {
+   "s": "2026-11-21",
+   "t": "3 PM",
+   "n": "Light Up the Levee",
+   "v": "Newport on the Levee",
+   "a": "Newport, KY",
+   "z": "near",
+   "c": "festival",
+   "d": "Tree lighting at 7 and fireworks."
+  },
+  {
+   "s": "2026-11-21",
+   "t": "4:30 PM",
+   "n": "Hamilton Welcomes the Holidays",
+   "v": "Marcum Park",
+   "a": "Hamilton",
+   "z": "near",
+   "c": "festival",
+   "d": "Free tree lighting with live reindeer."
+  },
+  {
+   "s": "2026-11-27",
+   "t": "",
+   "n": "Kings Island Winterfest",
+   "v": "Kings Island",
+   "a": "Mason",
+   "z": "near",
+   "c": "family",
+   "d": "Season opening.",
+   "e": "2026-12-31"
+  },
+  {
+   "s": "2026-11-28",
+   "t": "11 AM",
+   "n": "Crafty Supermarket",
+   "v": "Music Hall",
+   "a": "Over-the-Rhine",
+   "z": "core",
+   "c": "market",
+   "d": "Indie craft fair, 11 AM to 5 PM."
+  }
+ ],
+ "dayton": [
+  {
+   "s": "2026-11-01",
+   "t": "",
+   "n": "Welcome Dayton's New Americans Art Exhibit",
+   "v": "Dayton Metro Library, Main",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Free annual exhibit.",
+   "e": "2026-12-31"
+  },
+  {
+   "s": "2026-11-03",
+   "t": "",
+   "n": "Wild Axe Throwing Opens",
+   "v": "Wild Axe Throwing",
+   "a": "Beavercreek",
+   "z": "near",
+   "c": "food",
+   "d": "Dayton's first axe-throwing bar."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "",
+   "n": "The Vocal Takeover",
+   "v": "Trotwood-Madison High School",
+   "a": "Trotwood",
+   "z": "near",
+   "c": "music",
+   "d": "Community vocal showcase."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "5 PM",
+   "n": "New Americans Exhibit Opening Reception",
+   "v": "Dayton Metro Library, Main",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Free reception, 5 to 7 PM."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7 PM",
+   "n": "Tito's Tasting & Axe Throwing",
+   "v": "Wild Axe Throwing",
+   "a": "Beavercreek",
+   "z": "near",
+   "c": "food",
+   "d": "An hour of throwing and four cocktails, $50, 21+."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "First Friday Art Hop",
+   "v": "Front Street",
+   "a": "East Dayton",
+   "z": "core",
+   "c": "arts",
+   "d": "150+ artists, vintage vendors and food trucks."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "Snowflake Extravaganza Craft Bazaar",
+   "v": "New Carlisle",
+   "a": "New Carlisle",
+   "z": "near",
+   "c": "market",
+   "d": "Winter craft bazaar.",
+   "e": "2026-11-07"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Saturday Open Studios",
+   "v": "Front Street",
+   "a": "East Dayton",
+   "z": "core",
+   "c": "arts",
+   "d": "Studios open the day after the Art Hop."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Dayton Pizza Week",
+   "v": "Participating pizzerias",
+   "a": "Citywide",
+   "z": "core",
+   "c": "food",
+   "d": "A week of pizza deals.",
+   "e": "2026-11-14"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Dayton Train Show",
+   "v": "Dayton",
+   "a": "Dayton",
+   "z": "core",
+   "c": "family",
+   "d": "Model trains, LEGO, clinics and food trucks.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Bellbrook Handmade Holiday Craft Show",
+   "v": "Bellbrook",
+   "a": "Bellbrook",
+   "z": "near",
+   "c": "market",
+   "d": "Handmade holiday gifts."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Fall into Christmas Food Truck Rally",
+   "v": "Greenville",
+   "a": "Greenville",
+   "z": "trip",
+   "c": "food",
+   "d": "Food trucks plus a craft show."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "11:30 AM",
+   "n": "Friends of the Library Book Sale",
+   "v": "Dayton Metro Library",
+   "a": "Downtown",
+   "z": "core",
+   "c": "community",
+   "d": "Used books, music and movies; members from 9:30."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "",
+   "n": "Girl Scout Makers Fair",
+   "v": "Dayton",
+   "a": "Dayton",
+   "z": "core",
+   "c": "family",
+   "d": "Hands-on maker fair."
+  },
+  {
+   "s": "2026-11-13",
+   "t": "",
+   "n": "Yuletide Winter's Gathering",
+   "v": "Downtown Tipp City",
+   "a": "Tipp City",
+   "z": "near",
+   "c": "festival",
+   "d": "Shopping, Santa photos and wagon rides.",
+   "e": "2026-11-15"
+  },
+  {
+   "s": "2026-11-13",
+   "t": "",
+   "n": "CLUE",
+   "v": "Carroll High School",
+   "a": "Riverside",
+   "z": "near",
+   "c": "arts",
+   "d": "Student production of the mystery comedy."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "",
+   "n": "Art For All Day",
+   "v": "Dayton Art Institute",
+   "a": "Downtown",
+   "z": "core",
+   "c": "arts",
+   "d": "Free admission to the whole museum."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "",
+   "n": "Hotel California: Eagles Tribute",
+   "v": "Arbogast Performing Arts Center",
+   "a": "Troy",
+   "z": "near",
+   "c": "music",
+   "d": "Tribute concert."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "",
+   "n": "Pet Afflaire Gala",
+   "v": "Dayton",
+   "a": "Dayton",
+   "z": "core",
+   "c": "community",
+   "d": "Humane Society gala, Tails in Tuscany."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "",
+   "n": "Stand By Me: 40 Years Later",
+   "v": "Dayton",
+   "a": "Dayton",
+   "z": "core",
+   "c": "arts",
+   "d": "Corey Feldman, Jerry O'Connell and Wil Wheaton."
+  },
+  {
+   "s": "2026-11-14",
+   "t": "5 PM",
+   "n": "Winter Fest & Tree Lighting",
+   "v": "Austin Landing",
+   "a": "Miamisburg",
+   "z": "near",
+   "c": "festival",
+   "d": "Holiday festival with a tree lighting."
+  }
+ ],
+ "akron": [
+  {
+   "s": "2026-11-06",
+   "t": "",
+   "n": "The Four Horsemen",
+   "v": "Goodyear Theater",
+   "a": "East Akron",
+   "z": "core",
+   "c": "music",
+   "d": "Metallica tribute."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "Doors 6:30 PM",
+   "n": "Twin Peaks: Conversations with the Stars",
+   "v": "Kent Stage",
+   "a": "Kent",
+   "z": "near",
+   "c": "arts",
+   "d": "Cast members talk about the series."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Neko Case",
+   "v": "E.J. Thomas Hall",
+   "a": "University of Akron",
+   "z": "core",
+   "c": "music",
+   "d": "Neon Grey Midnight Green Tour."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Blitzkid",
+   "v": "Musica",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Horror-punk show."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Springfield Twp. Women's Club Craft Show",
+   "v": "Akron",
+   "a": "Springfield Twp.",
+   "z": "core",
+   "c": "market",
+   "d": "Autumn arts and crafts."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Craft Bazaar at St. Luke's",
+   "v": "St. Luke's",
+   "a": "Cuyahoga Falls",
+   "z": "near",
+   "c": "market",
+   "d": "Craft bazaar."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Lake Brady Fall Craft Show",
+   "v": "Lake Brady United Methodist Church",
+   "a": "Kent",
+   "z": "near",
+   "c": "market",
+   "d": "Fall craft show."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Green Band Boosters Craft Show",
+   "v": "Green",
+   "a": "Uniontown",
+   "z": "near",
+   "c": "market",
+   "d": "Fundraiser craft show."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Buddy the Elf Bazaar",
+   "v": "Stow",
+   "a": "Stow",
+   "z": "near",
+   "c": "market",
+   "d": "Elf-themed holiday bazaar.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-07",
+   "t": "5 PM",
+   "n": "Brian Lisik & Rachel Roberts",
+   "v": "Rialto Theatre",
+   "a": "Kenmore",
+   "z": "core",
+   "c": "music",
+   "d": "Album release show for The Slovak Club."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7 PM",
+   "n": "Nurse John",
+   "v": "Akron Civic Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "Against Medical Advice Tour."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7 PM",
+   "n": "Woodchoppers Ball",
+   "v": "Kent Stage",
+   "a": "Kent",
+   "z": "near",
+   "c": "music",
+   "d": "25th annual acoustic guitar showcase."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7:30 PM",
+   "n": "Scott Bradlee's Postmodern Jukebox",
+   "v": "Goodyear Theater",
+   "a": "East Akron",
+   "z": "core",
+   "c": "music",
+   "d": "Vintage-style covers of pop hits."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "Doors 6 PM",
+   "n": "Black Violin",
+   "v": "Kent Stage",
+   "a": "Kent",
+   "z": "near",
+   "c": "music",
+   "d": "Be Free Tour."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "",
+   "n": "Carrousel of Crafts",
+   "v": "Wadsworth",
+   "a": "Wadsworth",
+   "z": "near",
+   "c": "market",
+   "d": "Craft show."
+  },
+  {
+   "s": "2026-11-27",
+   "t": "",
+   "n": "Akron Bazaar Holiday Market",
+   "v": "Downtown Akron",
+   "a": "Downtown",
+   "z": "core",
+   "c": "market",
+   "d": "Handmade gifts. Fri 5 to 9 PM, weekend 10 AM to 4 PM.",
+   "e": "2026-11-29"
+  },
+  {
+   "s": "2026-11-27",
+   "t": "11 AM",
+   "n": "Lock 3 Winter Season Opens",
+   "v": "Lock 3 Park",
+   "a": "Downtown",
+   "z": "core",
+   "c": "family",
+   "d": "Ice skating, ice bikes and ice bumper cars."
+  },
+  {
+   "s": "2026-11-27",
+   "t": "6 PM",
+   "n": "Welcome Santa Illuminated Parade",
+   "v": "South Main Street",
+   "a": "Downtown",
+   "z": "core",
+   "c": "festival",
+   "d": "Parade, fireworks, drone show and the Lock 3 lighting."
+  }
+ ],
+ "toledo": [
+  {
+   "s": "2026-11-03",
+   "t": "7 PM",
+   "n": "Tuesday Night Live Jazz",
+   "v": "Lucille's",
+   "a": "Vistula",
+   "z": "core",
+   "c": "music",
+   "d": "Weekly jazz with Gene Parker and Damen Cook."
+  },
+  {
+   "s": "2026-11-04",
+   "t": "6 PM",
+   "n": "Community Builder Nights",
+   "v": "336 N. Superior St.",
+   "a": "Downtown",
+   "z": "core",
+   "c": "community",
+   "d": "Free monthly networking night."
+  },
+  {
+   "s": "2026-11-04",
+   "t": "7 PM",
+   "n": "Bingo Night",
+   "v": "Great Black Swamp Brewing",
+   "a": "Toledo",
+   "z": "core",
+   "c": "food",
+   "d": "Weekly brewery bingo."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "6 PM",
+   "n": "Fused Glass Totem Workshop",
+   "v": "Copper Moon Studio",
+   "a": "Holland",
+   "z": "near",
+   "c": "arts",
+   "d": "Make a glass totem, ages 10+. Also Sat & Sun.",
+   "e": "2026-11-08"
+  },
+  {
+   "s": "2026-11-05",
+   "t": "7:30 PM",
+   "n": "Thursday Night Comedy",
+   "v": "Toledo Spirits",
+   "a": "Vistula",
+   "z": "core",
+   "c": "comedy",
+   "d": "Free weekly showcase."
+  },
+  {
+   "s": "2026-11-05",
+   "t": "8 PM",
+   "n": "Bert Kreischer",
+   "v": "The Stranahan",
+   "a": "South Toledo",
+   "z": "core",
+   "c": "comedy",
+   "d": "Permission to Party Tour."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "6 PM",
+   "n": "Rockets Volleyball vs. Eastern Michigan",
+   "v": "University of Toledo",
+   "a": "West Toledo",
+   "z": "core",
+   "c": "sports",
+   "d": "NCAA home match."
+  },
+  {
+   "s": "2026-11-06",
+   "t": "7 PM",
+   "n": "Heated Rivalry Slumber Party",
+   "v": "Culture Clash Records",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Adults-only fan party with trivia and dancing."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "Romance-Con",
+   "v": "Toledo Lucas County Main Library",
+   "a": "Downtown",
+   "z": "core",
+   "c": "community",
+   "d": "Free; with Ali Hazelwood and Adriana Herrera."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "",
+   "n": "St. Richard Craft Show",
+   "v": "St. Richard",
+   "a": "Swanton",
+   "z": "near",
+   "c": "market",
+   "d": "Craft show."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7 PM",
+   "n": "Walleye vs. Fort Wayne Komets",
+   "v": "Huntington Center",
+   "a": "Downtown",
+   "z": "core",
+   "c": "sports",
+   "d": "ECHL hockey."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "7 PM",
+   "n": "Opera Cabaret",
+   "v": "Toledo Opera",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Free night from the Toledo Opera Chorus."
+  },
+  {
+   "s": "2026-11-07",
+   "t": "8 PM",
+   "n": "Big Band Trumpet with Wayne Bergeron",
+   "v": "Valentine Theatre",
+   "a": "Downtown",
+   "z": "core",
+   "c": "music",
+   "d": "Toledo Jazz Orchestra."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "10 AM",
+   "n": "SHOP419 at BREW",
+   "v": "BREW Coffee Bar",
+   "a": "West Toledo",
+   "z": "core",
+   "c": "market",
+   "d": "Monthly local vendor market, 10 AM to 2 PM."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "12 PM",
+   "n": "Boozy Brunch Bingo",
+   "v": "Toledo Spirits",
+   "a": "Vistula",
+   "z": "core",
+   "c": "food",
+   "d": "Brunch cocktails and bingo."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "3 PM",
+   "n": "Toledo Symphony Youth Orchestras",
+   "v": "Toledo Museum of Art",
+   "a": "Old West End",
+   "z": "core",
+   "c": "music",
+   "d": "Fall concert by 200+ young players."
+  },
+  {
+   "s": "2026-11-08",
+   "t": "6:30 PM",
+   "n": "Sunday Night Comedy",
+   "v": "Home Slice Pizza",
+   "a": "Downtown",
+   "z": "core",
+   "c": "comedy",
+   "d": "Free weekly showcase."
+  }
+ ]
+}

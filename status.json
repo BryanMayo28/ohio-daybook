@@ -1,0 +1,53 @@
+{
+  "updated": "2026-11-05T22:51:17.977Z",
+  "window": {
+    "start": "2026-11-05",
+    "end": "2026-12-02"
+  },
+  "cities": {
+    "columbus": {
+      "events": 98,
+      "sources": {
+        "Downtown Columbus": "error: fetch failed",
+        "Curated": 98,
+        "Kept from last run": 0
+      }
+    },
+    "cleveland": {
+      "events": 31,
+      "sources": {
+        "Curated": 31,
+        "Kept from last run": 0
+      }
+    },
+    "cincinnati": {
+      "events": 39,
+      "sources": {
+        "Curated": 39,
+        "Kept from last run": 0
+      }
+    },
+    "dayton": {
+      "events": 20,
+      "sources": {
+        "Curated": 20,
+        "Kept from last run": 0
+      }
+    },
+    "akron": {
+      "events": 18,
+      "sources": {
+        "Curated": 18,
+        "Kept from last run": 0
+      }
+    },
+    "toledo": {
+      "events": 14,
+      "sources": {
+        "Visit Toledo": "error: fetch failed",
+        "Curated": 14,
+        "Kept from last run": 0
+      }
+    }
+  }
+}
