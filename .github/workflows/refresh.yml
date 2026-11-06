@@ -2,13 +2,13 @@ name: Refresh events
 
 on:
   schedule:
-    - cron: "17 10 * * *"   # every day around 5-6 AM Eastern
-  workflow_dispatch:
+    - cron: "17 10 * * *"   # every day at 10:17 UTC (5:17 AM Eastern in winter, 6:17 AM in summer)
+  workflow_dispatch:         # "Run workflow" button for an on-demand refresh
   push:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: write   # commit the refreshed data back to the repo
   pages: write
   id-token: write
 
