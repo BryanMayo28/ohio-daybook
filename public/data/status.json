@@ -1,52 +1,59 @@
 {
-  "updated": "2026-11-05T22:51:17.977Z",
+  "updated": "2026-11-06T13:47:16.697Z",
   "window": {
-    "start": "2026-11-05",
-    "end": "2026-12-02"
+    "start": "2026-11-06",
+    "end": "2026-12-03"
   },
   "cities": {
     "columbus": {
-      "events": 98,
+      "events": 521,
       "sources": {
-        "Downtown Columbus": "error: fetch failed",
-        "Curated": 98,
-        "Kept from last run": 0
+        "Ticketmaster": 279,
+        "SeatGeek": 310,
+        "Downtown Columbus": 30,
+        "Curated": 95
       }
     },
     "cleveland": {
-      "events": 31,
+      "events": 582,
       "sources": {
-        "Curated": 31,
-        "Kept from last run": 0
+        "Ticketmaster": 323,
+        "SeatGeek": 400,
+        "Curated": 28
       }
     },
     "cincinnati": {
-      "events": 39,
+      "events": 410,
       "sources": {
-        "Curated": 39,
-        "Kept from last run": 0
+        "Ticketmaster": 241,
+        "SeatGeek": 293,
+        "Curated": 37
       }
     },
     "dayton": {
-      "events": 20,
+      "events": 712,
       "sources": {
-        "Curated": 20,
-        "Kept from last run": 0
+        "Ticketmaster": 455,
+        "SeatGeek": 489,
+        "Curated": 17
       }
     },
     "akron": {
-      "events": 18,
+      "events": 576,
       "sources": {
-        "Curated": 18,
-        "Kept from last run": 0
+        "Ticketmaster": 323,
+        "SeatGeek": 404,
+        "Curated": 18
       }
     },
     "toledo": {
-      "events": 14,
+      "events": 504,
       "sources": {
-        "Visit Toledo": "error: fetch failed",
-        "Curated": 14,
-        "Kept from last run": 0
+        "Ticketmaster": 371,
+        "SeatGeek": 362,
+        "Visit Toledo": "error: HTTP 403 Forbidden",
+        "Curated": 12,
+        "Kept from last run": 12
       }
     }
   }
