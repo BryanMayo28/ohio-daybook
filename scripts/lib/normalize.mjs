@@ -82,7 +82,10 @@ export function cleanText(s, max = 160) {
     .replace(/&[#a-z0-9]+;/gi, (m) => ENTITIES[m.toLowerCase()] ?? " ")
     .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, "")
     .replace(/\s+/g, " ")
+    .replace(/\s*(continue reading|read more|learn more|more info|click here for more)\s*(»|→|…|\.{3})?\s*$/i, "")
     .trim();
+  // A bare web address or phone line is not a description.
+  if (/^(https?:\/\/\S+\s*)+$/i.test(text)) return "";
   if (text.length <= max) return text;
   const cut = text.slice(0, max);
   const sentence = cut.lastIndexOf(". ");
@@ -155,7 +158,7 @@ export function makeEvent(fields) {
     t: fields.t || "",
     m: Number.isFinite(fields.m) ? fields.m : -1,
     n: cleanText(cleanName(fields.n), 120),
-    v: cleanText(fields.v || "Venue to be announced", 100),
+    v: cleanText(String(fields.v || "").replace(/^[\s\-–,]+/, "") || "Venue to be announced", 100),
     a: cleanText(fields.a || "", 60),
     z: ["core", "near", "trip"].includes(fields.z) ? fields.z : "core",
     c: CATEGORIES.includes(fields.c) ? fields.c : "community",
@@ -176,7 +179,7 @@ export function makeEvent(fields) {
 // ---- Duplicate detection ---------------------------------------------------
 
 const STOP = new Set(["the", "a", "an", "and", "of", "at", "vs", "v", "in", "w", "with", "presents", "live", "tour", "touring", "columbus", "cleveland", "cincinnati", "dayton", "akron", "toledo", "ohio", "oh", "show", "concert", "featuring", "feat", "ft"]);
-const tokens = (s) => new Set(String(s || "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").split(" ").filter((w) => w.length > 1 && !STOP.has(w)));
+const tokens = (s) => new Set(String(s || "").toLowerCase().replace(/&/g, " and ").replace(/#\d+/g, " ").replace(/[^a-z0-9]+/g, " ").split(" ").filter((w) => w.length > 1 && !STOP.has(w) && !/^\d+$/.test(w)));
 const venueKey = (s) => [...tokens(String(s || "").split(/[-–,(]/)[0])].slice(0, 2).join(" ");
 
 function similarNames(a, b) {
@@ -216,7 +219,8 @@ export function mergeEvents(list) {
       const sameVenue = vk && venueKey(x.v) === vk;
       const nameMatch = similarNames(x.n, ev.n);
       if (nameMatch && (sameVenue || x.n.toLowerCase() === ev.n.toLowerCase())) return true;
-      return sameVenue && ev.m >= 0 && x.m >= 0 && Math.abs(ev.m - x.m) <= 15 && nameMatch;
+      // Same name at the same start time is the same event even when sources spell the venue differently.
+      return nameMatch && ev.m >= 0 && x.m >= 0 && Math.abs(ev.m - x.m) <= 15;
     });
     if (!match) {
       const copy = { ...ev, _times: ev.m >= 0 ? [{ t: ev.t, m: ev.m }] : [] };

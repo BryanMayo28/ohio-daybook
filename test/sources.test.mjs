@@ -148,3 +148,20 @@ test("merge: cross-source duplicates, matinee + evening, keeps the richest field
   assert.equal(show.p, "From $45");
   assert.match(show.d, /helper robots/);
 });
+
+test("merge: one game listed three ways becomes one", () => {
+  const merged = mergeEvents([
+    makeEvent({ v: "Ohio Stadium", s: "2026-11-07", t: "3:30 PM", m: 930, n: "Ohio State Buckeyes Football vs. Oregon Ducks Football", src: "Ticketmaster", img: "https://img" }),
+    makeEvent({ v: "Ohio Stadium", s: "2026-11-07", t: "3:30 PM", m: 930, n: "#23 Oregon at #12 Ohio State", src: "SeatGeek" }),
+    makeEvent({ v: "Ohio State campus", s: "2026-11-07", t: "3:30 PM", m: 930, n: "Ohio State Football vs Oregon", src: "Ohio State Athletics" }),
+  ]);
+  assert.equal(merged.length, 1);
+  assert.equal(merged[0].img, "https://img");
+});
+
+test("descriptions: drop 'Continue reading' and bare links; venues lose a leading dash", () => {
+  const ev = makeEvent({ s: "2026-11-07", n: "Live Music", v: "- Stradley Park 30 S. High", d: "Continue reading" });
+  assert.equal(ev.d, "");
+  assert.equal(ev.v, "Stradley Park 30 S. High");
+  assert.equal(makeEvent({ s: "2026-11-07", n: "X", d: "https://www.canalwinchesterohio.gov/calendar.aspx?EID=1" }).d, "");
+});

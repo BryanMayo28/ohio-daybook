@@ -9,10 +9,12 @@ export function mapTribeEvent(raw, city, settings, feed) {
   if (!raw?.start_date || !raw.title) return null;
   const name = cleanText(raw.title, 140).replace(/^FREE\s+/i, "");
   if (feed.skipMeetings && MEETING.test(name)) return null;
+  if (/\b(cancell?ed|postponed)\b/i.test(name)) return null;
   const [sDate, sTime] = raw.start_date.split(" ");
   const [eDate] = (raw.end_date || raw.start_date).split(" ");
   const { t, m } = raw.all_day ? { t: "", m: -1 } : timeFrom24h(sTime);
-  const description = cleanText(raw.excerpt && raw.excerpt.length > 60 ? raw.excerpt : raw.description, 480);
+  const excerpt = cleanText(raw.excerpt, 480);
+  const description = excerpt.length > 60 ? excerpt : cleanText(raw.description, 480) || excerpt;
   const venue = raw.venue && !Array.isArray(raw.venue) ? raw.venue : {};
   const values = (raw.cost_details?.values || []).map(Number).filter((n) => Number.isFinite(n));
   let price = null;

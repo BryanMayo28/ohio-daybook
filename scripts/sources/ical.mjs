@@ -47,7 +47,7 @@ export function mapICSEvent(vevent, city, feed, timeZone) {
   if (!start || !vevent.SUMMARY) return null;
   if (/^cancel/i.test(vevent.STATUS?.value || "")) return null;
   let name = vevent.SUMMARY.value.replace(/^\[[A-Z]\]\s*/, "").trim();
-  if (/^(cancel|postponed)/i.test(name)) return null;
+  if (/\b(cancell?ed|postponed)\b/i.test(name)) return null;
   if (feed.skipMeetings && MEETING.test(name)) return null;
   const location = vevent.LOCATION?.value || "";
   if (feed.homeOnly) {
@@ -63,7 +63,7 @@ export function mapICSEvent(vevent, city, feed, timeZone) {
   const { t, m } = start.allDay ? { t: "", m: -1 } : timeFrom24h(start.time);
   const description = cleanText(vevent.DESCRIPTION?.value || "", 480);
   const price = priceFromText(`${name} ${description}`);
-  let venue = (feed.venueFromLocation === false ? feed.venue : location.split(",")[0].trim()) || feed.venue || feed.name;
+  let venue = (feed.venueFromLocation === false ? feed.venue : location.replace(/^[\s\-–]+/, "").split(",")[0].trim()) || feed.venue || feed.name;
   // Athletics feeds often give only "Columbus, Ohio" as the location.
   if (feed.homeOnly && new RegExp(`^${feed.homeOnly}$`, "i").test(venue)) venue = feed.venue || feed.name;
   const attach = vevent.ATTACH;
