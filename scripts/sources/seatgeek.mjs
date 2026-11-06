@@ -1,7 +1,9 @@
 // SeatGeek Platform API: fills gaps in Ticketmaster (minor-league sports, smaller venues).
 // Free client id: https://seatgeek.com/account/develop
+// The free tier returns no prices, images or descriptions, so those come from
+// a matching Ticketmaster listing or Wikipedia when available.
 import { getJSON, sleep } from "../lib/http.mjs";
-import { makeEvent, timeFrom24h, zoneFor } from "../lib/normalize.mjs";
+import { makeEvent, timeFrom24h, zoneFor, belongsToOtherCity } from "../lib/normalize.mjs";
 
 const TYPE_TO_CATEGORY = [
   [/comedy/, "comedy"],
@@ -20,10 +22,14 @@ export function mapSeatGeekCategory(type, taxonomies = []) {
 
 export function mapSeatGeekEvent(raw, city, settings) {
   if (!raw?.datetime_local || raw.date_tbd) return null;
-  const [date, time] = raw.datetime_local.split("T");
   const venue = raw.venue || {};
+  if (belongsToOtherCity(city, settings, venue.city)) return null;
+  if (/\bparking\b/i.test(raw.title || "")) return null;
+  const [date, time] = raw.datetime_local.split("T");
   const { t, m } = raw.time_tbd ? { t: "", m: -1 } : timeFrom24h(time);
-  const tax = (raw.taxonomies || []).map((x) => x.name.replace(/_/g, " ")).filter(Boolean);
+  const cat = mapSeatGeekCategory(raw.type, raw.taxonomies);
+  const performer = (raw.performers || []).find((p) => p.primary) || raw.performers?.[0];
+  const lowest = raw.stats?.lowest_price;
   return makeEvent({
     s: date,
     t, m,
@@ -31,10 +37,14 @@ export function mapSeatGeekEvent(raw, city, settings) {
     v: venue.name,
     a: venue.city || "",
     z: zoneFor(city, settings, venue.city, venue.location?.lat, venue.location?.lon),
-    c: mapSeatGeekCategory(raw.type, raw.taxonomies),
-    d: raw.description || (tax.length ? tax.slice(-1)[0].replace(/^\w/, (c) => c.toUpperCase()) : ""),
+    lat: venue.location?.lat, lng: venue.location?.lon,
+    c: cat,
+    d: raw.description || "",
+    p: lowest ? "From $" + Math.round(lowest) : undefined, pm: lowest || undefined,
+    img: performer?.image || undefined,
     u: raw.url,
     src: "SeatGeek",
+    _wiki: performer && cat !== "sports" ? { name: performer.name, kind: cat } : undefined,
   });
 }
 

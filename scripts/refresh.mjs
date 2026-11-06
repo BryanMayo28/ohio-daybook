@@ -5,14 +5,16 @@
 //
 // Each source is optional: a missing key or a failing feed is logged and skipped.
 // If a source fails, still-upcoming events from the previous run are kept so the
-// app never goes blank because one API had a bad morning.
+// app never goes blank because one source had a bad morning.
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { fetchTicketmaster } from "./sources/ticketmaster.mjs";
 import { fetchSeatGeek } from "./sources/seatgeek.mjs";
 import { fetchICal } from "./sources/ical.mjs";
-import { makeEvent, mergeEvents, minutesFromLabel, todayIn, addDays } from "./lib/normalize.mjs";
+import { fetchTribe } from "./sources/tribe.mjs";
+import { enrichWithWikipedia } from "./lib/wiki.mjs";
+import { makeEvent, mergeEvents, minutesFromLabel, todayIn, addDays, priceFromText } from "./lib/normalize.mjs";
 import { redact } from "./lib/http.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -58,13 +60,17 @@ async function main() {
     console.log(`${city.name}`);
     if (tmKey) await run("Ticketmaster", () => fetchTicketmaster(city, settings, { apiKey: tmKey, start, end }));
     if (sgId) await run("SeatGeek", () => fetchSeatGeek(city, settings, { clientId: sgId, start, end }));
-    for (const feed of city.icalFeeds || []) {
-      await run(feed.name, () => fetchICal(city, feed, { start, end, timeZone: tz }));
+    for (const feed of city.feeds || city.icalFeeds || []) {
+      const opts = { start, end, timeZone: tz };
+      await run(feed.name, () => (feed.type === "tribe" ? fetchTribe(city, settings, feed, opts) : fetchICal(city, feed, opts)));
     }
 
     // Hand-picked events (markets, festivals, light shows) that ticketing APIs miss.
     const picks = (curated[city.id] || [])
-      .map((e) => makeEvent({ ...e, m: e.m ?? minutesFromLabel(e.t), src: e.src || "Curated" }))
+      .map((e) => {
+        const price = e.p ? { p: e.p, pm: e.pm } : priceFromText(e.d);
+        return makeEvent({ ...e, m: e.m ?? minutesFromLabel(e.t), p: price?.p, pm: price?.pm, src: "Curated" });
+      })
       .filter(inWindow);
     collected.push(...picks);
     report.Curated = picks.length;
@@ -78,9 +84,14 @@ async function main() {
     }
 
     const events = mergeEvents(collected.filter(inWindow));
+    const wiki = await enrichWithWikipedia(events, path.join(root, "cache", "wiki.json"));
+    for (const e of events) { delete e._wiki; if (e.dg) delete e.dg; }
     await writeFile(outFile, JSON.stringify({ city: city.id, updated: start, events }) + "\n");
-    status.cities[city.id] = { events: events.length, sources: report };
-    console.log(`  → ${events.length} events written`);
+    const withPrice = events.filter((e) => e.p).length;
+    const withImg = events.filter((e) => e.img).length;
+    const withDesc = events.filter((e) => e.d).length;
+    status.cities[city.id] = { events: events.length, withPrice, withImg, withDesc, wikipedia: wiki.used, sources: report };
+    console.log(`  → ${events.length} events written (${withPrice} priced, ${withImg} photos, ${withDesc} described, ${wiki.used} from Wikipedia)`);
   }
 
   await writeFile(path.join(outDir, "status.json"), JSON.stringify(status, null, 2) + "\n");

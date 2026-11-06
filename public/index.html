@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Ohio Daybook</title>
-<meta name="description" content="Day-by-day events for Columbus and Ohio's major cities.">
-<meta name="theme-color" content="#F2F4F7" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0E1220" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Day-by-day events for Columbus and Ohio's major cities, with prices, photos and weather.">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#10151F" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Daybook">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -14,27 +14,69 @@
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
+<header class="top">
   <div class="wrap">
-    <div class="mast"><h1>Ohio Daybook</h1><span id="range">Next 4 weeks</span></div>
-    <nav class="scroller" id="cities" role="tablist" aria-label="City"></nav>
-    <div class="scroller" id="days" aria-label="Day"></div>
+    <div class="brand">
+      <h1>Ohio Daybook</h1>
+      <div class="brand-actions">
+        <button type="button" class="pill-btn" id="savedBtn" aria-label="My plans">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"/></svg>
+          <span id="savedCount">0</span>
+        </button>
+        <button type="button" class="pill-btn" id="homeBtn" aria-label="Set home location">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span id="homeLabel">Home</span>
+        </button>
+      </div>
+    </div>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search events, venues, artists" autocomplete="off" enterkeyhint="search" aria-label="Search events">
+    </label>
   </div>
 </header>
-
-<div class="wrap">
-  <main id="main">
-    <div class="dayhead"><h2 id="dayTitle">Loading events…</h2><p id="daySub">Pulling the latest listings for each city.</p></div>
-    <div class="chips" id="zones"></div>
-    <div class="chips" id="cats"></div>
-    <div id="out"></div>
-    <footer id="foot">Listings come from Ticketmaster, SeatGeek, public event calendars and hand-picked local events. Times change; check with the venue before you go.</footer>
-  </main>
+<div class="bar">
+  <div class="wrap">
+    <nav class="tabs" id="cities" role="tablist" aria-label="City"></nav>
+    <div class="days" id="days" aria-label="Day"></div>
+  </div>
 </div>
+
+<main class="wrap" id="main">
+  <div class="dayhead">
+    <h2 id="title">Loading events…</h2>
+    <p id="sub">Pulling the latest listings.</p>
+  </div>
+  <div class="chips" id="filters"></div>
+  <div class="chips cats" id="cats"></div>
+  <div id="out"></div>
+  <footer id="foot"></footer>
+</main>
+
+<dialog id="homeDialog" aria-labelledby="homeTitle">
+  <form method="dialog" id="homeForm">
+    <h3 id="homeTitle">Where's home?</h3>
+    <p>Events then show roughly how far away they are. This stays on this phone only.</p>
+    <label for="homeInput">ZIP code or town</label>
+    <div class="home-row">
+      <input id="homeInput" type="text" inputmode="text" placeholder="e.g. 43215 or Worthington" autocomplete="postal-code">
+      <button type="button" id="homeFind" class="btn primary">Set</button>
+    </div>
+    <button type="button" id="homeGeo" class="btn">Use my current location</button>
+    <p class="home-msg" id="homeMsg" role="status"></p>
+    <div class="dialog-actions">
+      <button type="button" id="homeClear" class="btn ghost">Clear home</button>
+      <button value="close" class="btn">Done</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <script src="app.js"></script>
 </body>
 </html>

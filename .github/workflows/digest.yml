@@ -1,0 +1,21 @@
+name: Weekend email
+
+on:
+  schedule:
+    - cron: "41 12 * * 4"   # Thursdays 12:41 UTC (7:41 AM Eastern in winter, 8:41 AM in summer)
+  workflow_dispatch:
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Send weekend picks
+        run: node scripts/digest.mjs
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          DIGEST_CITY: columbus

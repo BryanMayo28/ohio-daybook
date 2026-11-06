@@ -1,6 +1,6 @@
-// Offline support: app shell is cached; event data is network-first so it's
-// always fresh when online and still readable when offline.
-const CACHE = "daybook-v1";
+// Offline support. Everything from this site is network-first, so a new version
+// or fresh event data shows up right away, and the last copy still opens offline.
+const CACHE = "daybook-v2";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icons/icon.svg", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
@@ -16,15 +16,12 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  const isData = url.pathname.includes("/data/");
-  if (isData || e.request.mode === "navigate") {
-    // Network first, fall back to cache.
-    e.respondWith(
-      fetch(e.request)
-        .then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); return res; })
-        .catch(() => caches.match(e.request).then((r) => r || caches.match("index.html")))
-    );
-  } else {
-    e.respondWith(caches.match(e.request).then((r) => r || fetch(e.request)));
-  }
+  e.respondWith(
+    fetch(e.request)
+      .then((res) => {
+        if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); }
+        return res;
+      })
+      .catch(() => caches.match(e.request).then((r) => r || (e.request.mode === "navigate" ? caches.match("index.html") : undefined)))
+  );
 });

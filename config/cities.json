@@ -1,17 +1,177 @@
 {
   "timezone": "America/New_York",
   "windowDays": 28,
-  "radiusMiles": 75,
-  "nearMiles": 35,
+  "radiusMiles": 60,
+  "nearMiles": 30,
   "cities": [
     {
       "id": "columbus",
       "name": "Columbus",
       "lat": 39.9612,
       "lng": -82.9988,
-      "coreCities": ["Columbus"],
-      "icalFeeds": [
-        { "name": "Downtown Columbus", "url": "https://downtowncolumbus.com/events/?ical=1", "zone": "core", "area": "Downtown" }
+      "coreCities": [
+        "Columbus"
+      ],
+      "feeds": [
+        {
+          "type": "tribe",
+          "name": "Downtown Columbus",
+          "site": "https://downtowncolumbus.com/events/",
+          "area": "Downtown"
+        },
+        {
+          "type": "tribe",
+          "name": "Columbus Commons",
+          "site": "https://columbuscommons.org/events/",
+          "area": "Downtown",
+          "venue": "Columbus Commons"
+        },
+        {
+          "type": "tribe",
+          "name": "Columbus Rec & Parks",
+          "site": "https://www.columbusrecparks.com/events/"
+        },
+        {
+          "type": "tribe",
+          "name": "King Arts Complex",
+          "site": "https://kingartscomplex.com/events/",
+          "area": "King-Lincoln",
+          "venue": "King Arts Complex",
+          "category": "arts"
+        },
+        {
+          "type": "tribe",
+          "name": "Ohio Craft Museum",
+          "site": "https://ohiocraft.org/events/",
+          "area": "Fifth by Northwest",
+          "venue": "Ohio Craft Museum"
+        },
+        {
+          "type": "tribe",
+          "name": "Columbus Symphony",
+          "site": "https://columbussymphony.com/events/",
+          "area": "Downtown",
+          "category": "music"
+        },
+        {
+          "type": "ics",
+          "name": "Franklin Park Conservatory",
+          "ics": "https://www.fpconservatory.org/events/?ical=1",
+          "area": "Franklin Park",
+          "venue": "Franklin Park Conservatory",
+          "venueFromLocation": false
+        },
+        {
+          "type": "tribe",
+          "name": "Columbus Metro Parks",
+          "site": "https://www.metroparks.net/events/",
+          "zone": "near",
+          "category": "outdoors"
+        },
+        {
+          "type": "ics",
+          "name": "Ohio State Athletics",
+          "ics": "https://ohiostatebuckeyes.com/calendar.ashx/calendar.ics?sport_id=0",
+          "homeOnly": "Columbus",
+          "category": "sports",
+          "area": "Campus",
+          "venue": "Ohio State campus"
+        },
+        {
+          "type": "tribe",
+          "name": "Visit Westerville",
+          "site": "https://www.visitwesterville.org/events-3/",
+          "zone": "near",
+          "area": "Westerville"
+        },
+        {
+          "type": "tribe",
+          "name": "Easton Town Center",
+          "site": "https://eastontowncenter.com/events/list/",
+          "zone": "near",
+          "area": "Easton",
+          "venue": "Easton Town Center"
+        },
+        {
+          "type": "tribe",
+          "name": "New Albany",
+          "site": "https://newalbanyohio.org/calendar/",
+          "zone": "near",
+          "area": "New Albany",
+          "skipMeetings": true
+        },
+        {
+          "type": "tribe",
+          "name": "Hilliard",
+          "site": "https://hilliardohio.gov/events/",
+          "zone": "near",
+          "area": "Hilliard",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Worthington events",
+          "ics": "https://www.worthington.org/common/modules/iCalendar/iCalendar.aspx?catID=28&feed=calendar",
+          "zone": "near",
+          "area": "Worthington",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Worthington parks",
+          "ics": "https://www.worthington.org/common/modules/iCalendar/iCalendar.aspx?catID=20&feed=calendar",
+          "zone": "near",
+          "area": "Worthington",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Gahanna events",
+          "ics": "https://www.gahanna.gov/common/modules/iCalendar/iCalendar.aspx?catID=27&feed=calendar",
+          "zone": "near",
+          "area": "Gahanna",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Gahanna Creekside",
+          "ics": "https://www.gahanna.gov/common/modules/iCalendar/iCalendar.aspx?catID=37&feed=calendar",
+          "zone": "near",
+          "area": "Gahanna",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Reynoldsburg",
+          "ics": "https://www.reynoldsburg.gov/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar",
+          "zone": "near",
+          "area": "Reynoldsburg",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Grove City events",
+          "ics": "https://www.grovecityohio.gov/common/modules/iCalendar/iCalendar.aspx?catID=35&feed=calendar",
+          "zone": "near",
+          "area": "Grove City",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Grove City parks",
+          "ics": "https://www.grovecityohio.gov/common/modules/iCalendar/iCalendar.aspx?catID=27&feed=calendar",
+          "zone": "near",
+          "area": "Grove City",
+          "skipMeetings": true
+        },
+        {
+          "type": "ics",
+          "name": "Canal Winchester",
+          "ics": "https://www.canalwinchesterohio.gov/common/modules/iCalendar/iCalendar.aspx?catID=25&feed=calendar",
+          "zone": "near",
+          "area": "Canal Winchester",
+          "skipMeetings": true
+        }
       ]
     },
     {
@@ -19,41 +179,128 @@
       "name": "Cleveland",
       "lat": 41.4993,
       "lng": -81.6944,
-      "coreCities": ["Cleveland"],
-      "icalFeeds": []
+      "coreCities": [
+        "Cleveland"
+      ],
+      "feeds": [
+        {
+          "type": "tribe",
+          "name": "Ohio City",
+          "site": "https://www.ohiocity.org/schedule/",
+          "area": "Ohio City"
+        },
+        {
+          "type": "ics",
+          "name": "Cleveland State Athletics",
+          "ics": "https://csuvikings.com/calendar.ashx/calendar.ics?sport_id=0",
+          "homeOnly": "Cleveland",
+          "category": "sports",
+          "area": "Downtown",
+          "venue": "Cleveland State campus"
+        }
+      ]
     },
     {
       "id": "cincinnati",
       "name": "Cincinnati",
       "lat": 39.1031,
       "lng": -84.512,
-      "coreCities": ["Cincinnati"],
-      "icalFeeds": []
+      "coreCities": [
+        "Cincinnati"
+      ],
+      "feeds": [
+        {
+          "type": "ics",
+          "name": "Xavier Athletics",
+          "ics": "https://goxavier.com/calendar.ashx/calendar.ics?sport_id=0",
+          "homeOnly": "Cincinnati",
+          "category": "sports",
+          "area": "Evanston",
+          "venue": "Xavier campus"
+        }
+      ]
     },
     {
       "id": "dayton",
       "name": "Dayton",
       "lat": 39.7589,
       "lng": -84.1916,
-      "coreCities": ["Dayton"],
-      "icalFeeds": []
+      "coreCities": [
+        "Dayton"
+      ],
+      "feeds": [
+        {
+          "type": "tribe",
+          "name": "Downtown Dayton",
+          "site": "https://downtowndayton.org/events-calendar/",
+          "area": "Downtown"
+        },
+        {
+          "type": "ics",
+          "name": "Dayton Flyers",
+          "ics": "https://daytonflyers.com/calendar.ashx/calendar.ics?sport_id=0",
+          "homeOnly": "Dayton",
+          "category": "sports",
+          "area": "UD campus",
+          "venue": "UD campus"
+        }
+      ]
     },
     {
       "id": "akron",
       "name": "Akron",
       "lat": 41.0814,
       "lng": -81.519,
-      "coreCities": ["Akron"],
-      "icalFeeds": []
+      "coreCities": [
+        "Akron"
+      ],
+      "feeds": [
+        {
+          "type": "tribe",
+          "name": "Summit Metro Parks",
+          "site": "https://www.summitmetroparks.org/programs-events/",
+          "zone": "near",
+          "category": "outdoors"
+        },
+        {
+          "type": "ics",
+          "name": "Akron Zips",
+          "ics": "https://gozips.com/calendar.ashx/calendar.ics?sport_id=0",
+          "homeOnly": "Akron",
+          "category": "sports",
+          "area": "University of Akron",
+          "venue": "University of Akron campus"
+        },
+        {
+          "type": "ics",
+          "name": "Kent State Athletics",
+          "ics": "https://kentstatesports.com/calendar.ashx/calendar.ics?sport_id=0",
+          "homeOnly": "Kent",
+          "category": "sports",
+          "zone": "near",
+          "area": "Kent",
+          "venue": "Kent State campus"
+        }
+      ]
     },
     {
       "id": "toledo",
       "name": "Toledo",
       "lat": 41.6528,
       "lng": -83.5379,
-      "coreCities": ["Toledo"],
-      "icalFeeds": [
-        { "name": "Visit Toledo", "url": "https://visittoledo.org/events-calendar/?ical=1", "zone": "core" }
+      "coreCities": [
+        "Toledo"
+      ],
+      "feeds": [
+        {
+          "type": "ics",
+          "name": "Toledo Rockets",
+          "ics": "https://utrockets.com/calendar.ashx/calendar.ics?sport_id=0",
+          "homeOnly": "Toledo",
+          "category": "sports",
+          "area": "UT campus",
+          "venue": "UT campus"
+        }
       ]
     }
   ]
