@@ -1,110 +1,110 @@
 {
-  "updated": "2026-11-08T10:52:12.506Z",
+  "updated": "2026-11-09T11:06:46.773Z",
   "window": {
-    "start": "2026-11-08",
-    "end": "2026-12-05"
+    "start": "2026-11-09",
+    "end": "2026-12-06"
   },
   "cities": {
     "columbus": {
-      "events": 785,
-      "withPrice": 138,
-      "withImg": 420,
-      "withDesc": 663,
-      "wikipedia": 72,
+      "events": 775,
+      "withPrice": 139,
+      "withImg": 422,
+      "withDesc": 654,
+      "wikipedia": 74,
       "sources": {
-        "Ticketmaster": 237,
-        "SeatGeek": 239,
-        "Downtown Columbus": 105,
-        "Columbus Commons": 18,
+        "Ticketmaster": 235,
+        "SeatGeek": 234,
+        "Downtown Columbus": 100,
+        "Columbus Commons": 19,
         "Columbus Rec & Parks": 17,
         "King Arts Complex": 21,
         "Ohio Craft Museum": 4,
         "Columbus Symphony": 4,
-        "Franklin Park Conservatory": 24,
-        "Columbus Metro Parks": 11,
+        "Franklin Park Conservatory": 26,
+        "Columbus Metro Parks": 10,
         "Ohio State Athletics": 26,
-        "Visit Westerville": 183,
-        "Easton Town Center": 2,
-        "New Albany": 55,
-        "Hilliard": 1,
-        "Worthington events": 11,
+        "Visit Westerville": 184,
+        "Easton Town Center": 3,
+        "New Albany": 53,
+        "Hilliard": 2,
+        "Worthington events": 10,
         "Worthington parks": 3,
         "Gahanna events": 3,
         "Gahanna Creekside": 0,
         "Reynoldsburg": 2,
-        "Grove City events": 12,
+        "Grove City events": 13,
         "Grove City parks": 8,
         "Canal Winchester": 5,
-        "Curated": 82
+        "Curated": 70
       }
     },
     "cleveland": {
-      "events": 394,
-      "withPrice": 114,
+      "events": 389,
+      "withPrice": 115,
       "withImg": 89,
-      "withDesc": 292,
+      "withDesc": 286,
       "wikipedia": 124,
       "sources": {
-        "Ticketmaster": 240,
+        "Ticketmaster": 243,
         "SeatGeek": 294,
-        "Ohio City": 2,
-        "Cleveland State Athletics": 13,
-        "Curated": 9
+        "Ohio City": 1,
+        "Cleveland State Athletics": 14,
+        "Curated": 2
       }
     },
     "cincinnati": {
-      "events": 284,
-      "withPrice": 41,
-      "withImg": 118,
+      "events": 287,
+      "withPrice": 40,
+      "withImg": 128,
       "withDesc": 199,
-      "wikipedia": 80,
+      "wikipedia": 83,
       "sources": {
-        "Ticketmaster": 183,
-        "SeatGeek": 202,
-        "Xavier Athletics": 8,
-        "Curated": 22
+        "Ticketmaster": 198,
+        "SeatGeek": 212,
+        "Xavier Athletics": 9,
+        "Curated": 17
       }
     },
     "dayton": {
-      "events": 525,
+      "events": 527,
       "withPrice": 62,
-      "withImg": 428,
-      "withDesc": 485,
+      "withImg": 433,
+      "withDesc": 486,
       "wikipedia": 27,
       "sources": {
-        "Ticketmaster": 78,
-        "SeatGeek": 114,
+        "Ticketmaster": 83,
+        "SeatGeek": 117,
         "Downtown Dayton": 400,
-        "Dayton Flyers": 8,
-        "Curated": 11
+        "Dayton Flyers": 9,
+        "Curated": 9
       }
     },
     "akron": {
-      "events": 327,
-      "withPrice": 91,
-      "withImg": 121,
-      "withDesc": 267,
-      "wikipedia": 71,
+      "events": 338,
+      "withPrice": 90,
+      "withImg": 125,
+      "withDesc": 272,
+      "wikipedia": 73,
       "sources": {
-        "Ticketmaster": 182,
-        "SeatGeek": 181,
+        "Ticketmaster": 190,
+        "SeatGeek": 192,
         "Summit Metro Parks": 43,
-        "Akron Zips": 11,
+        "Akron Zips": 13,
         "Kent State Athletics": 8,
-        "Curated": 6
+        "Curated": 3
       }
     },
     "toledo": {
-      "events": 459,
-      "withPrice": 100,
-      "withImg": 196,
-      "withDesc": 343,
-      "wikipedia": 129,
+      "events": 478,
+      "withPrice": 103,
+      "withImg": 198,
+      "withDesc": 348,
+      "wikipedia": 133,
       "sources": {
-        "Ticketmaster": 307,
-        "SeatGeek": 368,
-        "Toledo Rockets": 8,
-        "Curated": 5
+        "Ticketmaster": 315,
+        "SeatGeek": 396,
+        "Toledo Rockets": 9,
+        "Curated": 0
       }
     }
   }
